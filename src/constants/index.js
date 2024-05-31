@@ -69,8 +69,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information. It features a clean, responsive design that adapts seamlessly to various devices and screen sizes.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
-    url: "https://myproject-splj.onrender.com/",
-    github: "https://github.com/moraakhila/smart-brain-frontend",
+    url: "https://portfolio-akhila.vercel.app/",
+    github: "https://github.com/moraakhila/portfolio",
   },
 ];
 

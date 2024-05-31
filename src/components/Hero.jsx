@@ -71,8 +71,8 @@ const Hero = () => {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              href="/resume.pdf" // Path to your resume file
-              download="resume.pdf"
+              href="/resume.pdf"
+              download="Akhila Mora.pdf"
               className="mt-4 mb-4 inline-block rounded bg-indigo-500 px-6 py-3 text-white"
             >
               Download Resume
