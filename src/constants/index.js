@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like JavaScript, React, as well as back-end technologies like Node.js, Java, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With over 5 years of hands-on experience, I have honed my skills in front-end technologies like JavaScript, React, as well as back-end technologies like Java, Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT_1 = `I am a dedicated and versatile full-stack developer with a passion for creating efficient and user-friendly web applications. My journey in web development began with a deep curiosity for how things work, evolving into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. My commitment to continuous learning drives me to produce exceptional code and user experiences.
 `;
@@ -13,33 +13,34 @@ I have experience working on a variety of projects, from simple websites to comp
 
 export const EXPERIENCES = [
   {
-    year: "August 2023 - May 2024",
-    role: "Graduate Teaching Assistant",
+    year: "November 2022 - May 2024",
+    role: "Research Assistant",
     company: "The University of Oklahoma",
-    description: `Orchestrated lab sessions and tutorials, fostering an interactive learning environment for undergraduates to grasp Java programming concepts. Mentored students individually, ensuring comprehension of complex programming principles and proficient troubleshooting of coding challenges. Supervised lab activities, optimizing operations to sustain an enriching educational atmosphere conducive to student success. Facilitated comprehensive understanding of Java programming through hands-on exercises, resulting in a 20% increase in student engagement and comprehension. Implemented innovative teaching methodologies, resulting in a 15% improvement in student performance evaluations.
-    `,
-    technologies: ["Java", "Teaching and Mentoring", "Presentation Skills"],
-  },
-  {
-    year: "November 2022 - July 2023",
-    role: "Graduate Research Assistant",
-    company: "The University of Oklahoma",
-    description: `Directed the collection and analysis of breath samples using cutting-edge technology operated by Breathonix, contributing to ongoing research on non-invasive diagnostic methods. Analyzed breath sample data using statistical software such as Python, achieving approximately 85% accuracy in extracting meaningful insights and patterns to inform further research directions and contribute to scientific publications. Designing an intuitive website for the project, enabling participants to easily input their information and receive predictions as output based on breath sample data analysis, thereby reducing the time for predicting output by 70%. Collaborated with a diverse team to optimize breath sampling, ensuring data accuracy, while also contributing to protocol development for participant recruitment and sample collection.`,
-    technologies: ["Data Collection", "Data Analysis"],
+    description: `Directed the collection and analysis of breath samples using cutting-edge technology operated by Breathonix,
+    contributing to ongoing research on non-invasive diagnostic methods. Analyzed breath sample data using Python, achieving approximately 85% accuracy in extracting meaningful insights and patterns, informing further research directions and contributing to scientific publications.
+    Designed a user-friendly website for the project, enabling participants to input their information and receive predictions based on breath sample data analysis, reducing prediction time by 70%. Collaborated with a diverse team to optimize breath sampling, ensuring data accuracy, and contributed to protocol development for participant recruitment and sample collection.`,
+    technologies: ["Python", "Data Collection", "Data Analysis", "Research"],
   },
   {
     year: "December 2020 - July 2022",
-    role: "Project Engineer",
+    role: "Software Developer",
     company: "Wipro Technologies Private Limited",
-    description: `Spearheaded the development of front-end applications from conception to deployment, collaborating with cross-functional teams, ensuring in a 20% increase in user engagement. Analyzed client requirements to design and implement high-quality front-end solutions, utilizing HTML, CSS, JavaScript and React frameworks, resulting in reduction in page load time. Managed project timelines, ensuring adherence to best practices and code quality standards, resulting in improvement in development efficiency. Identified and resolved technical issues promptly, improving front-end functionality by 40% and ensuring seamless user experiences. Delivered exceptional technical support to clients, ensuring a satisfaction rate and fostering long-term relationships.
+    description: `Resolved 95% of client-reported bugs promptly and effectively, ensuring high levels of customer satisfaction and smooth operation of IBM Tririga applications. Generated around 20 user-friendly web pages and interfaces using Java, HTML, CSS, and JavaScript, enhancing usability and functionality within the IBM Tririga platform. Collaborated closely with team members to analyze requirements, design solutions, and implement enhancements, contributing to the continuous improvement of IBM Tririga software. Leveraged Java Persistence API (JPA) to design and implement data access layer for IBM Tririga applications, ensuring seamless integration with relational databases and efficient management of persistent data.
     `,
-    technologies: ["JavaScript", "React", "Probelm Solving"],
+    technologies: ["Java", "Critical Thinking", "Probelm-Solving"],
   },
   {
-    year: "May 2019 - September 2019",
-    role: "Web Developer Intern",
+    year: "November 2019 - November 2020",
+    role: "Software Developer Intern",
+    company: "Outshade Digital Media Pvt Ltd",
+    description: `Demonstrated proficiency in React.js development, creating interactive and feature-rich components. Formulated RESTful web services using Spring Boot, enabling seamless communication between frontend and backend components by implementing CRUD operations for efficient data manipulation with the help of Spring JPA. Stayed updated with the latest web development trends and technologies, incorporating best practices into daily tasks to ensure modern and scalable solutions. Proven ability to effectively address technical challenges and foster a collaborative team environment.`,
+    technologies: ["React", "Java", "Spring Boot"],
+  },
+  {
+    year: "January 2019 - June 2019",
+    role: "Web Developer",
     company: "Lakireddy Bali Reddy College of Engineering",
-    description: `Led the development of responsive and user-friendly website using HTML5, CSS3, and JavaScript, culminated in surge in user engagement. Implemented efficient backend solutions utilizing PHP and MySQL, reducing website loading times and enhancing overall performance. Collaborated with cross-functional teams to identify and troubleshoot technical issues, leading to a 20% decrease in website downtime. Conducted comprehensive testing and debugging procedures to ensure seamless functionality across many browsers and devices, achieving a 95% bug-free user experience.`,
+    description: `Contributed to team discussions and provided valuable insights into user interface requirements. Created a responsive and user-friendly website using HTML5, CSS3, and JavaScript, leading to a substantial increase in user engagement metrics. Conducted comprehensive testing and debugging across multiple browsers and devices, successfully resolving 90% of frontend issues pre-deployment.`,
     technologies: ["HTML", "CSS", "Javascript"],
   },
 ];
@@ -75,6 +76,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "1800 Beaumont Drive, Norman, OK 73071 ",
+  address: "Grand Prairie, Texas",
   email: "morakhila99@gmail.com",
 };
